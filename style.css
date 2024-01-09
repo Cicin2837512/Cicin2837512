@@ -1,9 +1,62 @@
-body {
-	background-color: #150f1d;
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-h1 {
-	color: #cdd6ba;
-	font-family: Cantarell;
-	font-size: 2.5em;
+/* body */
+
+body {
+	background-color: #1e1e2e;
 }
+
+/* headings */
+h1 {
+	color: #cdd6f4;
+	font-family: Cantarell;
+	font-size: 4.5em;
+	margin-bottom: 15px;
+}
+h1:hover {
+	color: #ffffff;
+}
+
+h3 {
+	font-family: Lemon;
+	font-size: 2em;
+	color: #45475a;
+	margin-bottom: 20px;
+}
+h3:hover {
+	color: #6c7086;
+}
+
+h1:hover, h3:hover {
+	cursor: default;
+}
+
+/* hyperlinks */
+
+a {
+	font-family: 'Bebas Neue';
+	font-size: 3em;
+	text-decoration: none;
+	color: #f38ba8;
+}
+a:hover {
+	color: #d20f39;
+}
+
+/* all */
+a, h1, h3 {
+	transition: 1s ease-out;
+}
+
+div {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
